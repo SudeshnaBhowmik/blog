@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel = "icon" href =  "Banasthali_logo.jpg" 
+        type = "image/x-icon">   
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	
+
+<!--<div class="jumbotron">
+  <div class="container">
+     <div class="container">
+        <div class="row">
+        	<div class="col-md-3">
+                <img src="Banasthali_logo.jpg" />
+            </div>
+            <div class="col-md-9">
+                <h1>Banasthali Vidyapith</h1>
+                <h3>Online Hostel Allotment</h3>
+            </div>
+            
+
+        </div>
+      </div>
+  </div>
+</div>
+-->
+
+<div class="hero">
+	
+	<div class="container">
+        <div class="row">
+        	<div class="col-md-2">
+                <img id="logo" src="Banasthali_logo.jpg" />
+            </div>
+            <div class="col-md-10">
+                <h1>Banasthali Vidyapith</h1>
+            </div>
+            
+
+        </div>
+      </div>
+
+
+	<div class="form-box">
+		<div class="online">Online Hostel Allotment</div>
+		<div class="button-box">
+			<div id= "btn"></div>
+				<button type="button" class="toggle-btn" onclick="student()">Student</button>
+				<button type="button" class="toggle-btn" onclick="admin()">Admin</button>
+			
+		</div>
+		
+		<form id="student" class="input-group">
+			<div class="sign-in">Sign in</div>
+			<input type="text" class="input-field" placeholder="Student Id" required>
+			<div class="link">
+				<a href="">Forgot ID?</a>
+			</div>
+			<button type="submit" class="submit-btn">Next</button>
+				<button type="submit" class="help">Need Help?</button>
+		</form>
+		<form id="admin" class="input-group">
+			<div class="sign-in">Sign in</div>
+			<input type="text" class="input-field" placeholder="Admin Id" required>
+			<input type="password" class="input-field" placeholder="Password" required>
+				<button type="submit" class="submit-btn">Login</button>
+		</form>
+	</div>
+
+</div>
+<script>
+	var x=document.getElementById("student");
+	var y=document.getElementById("admin");
+	var z=document.getElementById("btn");
+	function admin(){
+		x.style.left = "-400px";
+		y.style.left = "50px";
+		z.style.left = "140px";
+	}
+	function student(){
+		x.style.left = "50px";
+		y.style.left = "450px";
+		z.style.left = "0px";
+	}
+</script>
+</body>
+</html>
