@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+.xyz{
+	background: linear-gradient(to right,#a1aae6,#3616d9);
+}
+.row{
+	/*
+	background: linear-gradient(to right,black,#591153);*/
+	background-color: #d4493f;
+	margin: 0px 0px 0px 0px;
+	color: white;
+	/*
+	background: linear-gradient(to right,#a1aae6,#2840e0);*/
+}
+	/*
+	margin-top: 20px;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Jumbo_back.jpg);
+	background-position: center;
+	background-size: cover;
+	*/
+
+.hero{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Apaji.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.form-box
+{
+	width: 380px;
+	height: 400px;
+	position: relative;
+	margin: 1% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box{
+	border-radius: 25px;
+	width: 280px;
+	margin: 60px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+}
+
+.toggle-btn{
+	border-radius: 25px;
+	width: 135px;
+	padding: 10px 10px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+
+}
+#btn{
+	border-radius: 25px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 140px;
+	height: 100%;
+	background: linear-gradient(to right, #ff105f,#ffad06);
+	transition: 0.5s;
+}
+.input-group{
+	top:120px;
+	position: absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field{
+	width:100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn{
+	width:85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 25px auto;
+	background:linear-gradient(to right, #ff105f,#ffad06);
+	border:0;
+	outline: none;
+	border-radius: 30px;
+}
+ /* unvisited link */
+a{
+	font-size: 12px;
+}
+a:link {
+
+	color: #ff105f;
+  text-decoration: none;
+  margin:0px 0 30px -10px;
+
+}
+
+a:visited {
+	color: #ff105f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+#student{
+	left:50px;
+}
+#admin{
+	left:450px;
+}
+/*
+.link{
+	margin:0px 0 30px -10px;
+
+
+}*/
+
+.sign-in{
+	margin-top:30px;
+	font-size: 25px;
+	text-align: center;
+}
+#logo{
+	width:150px;
+}
+.online{
+	margin-bottom:0px;
+	font-size: 30px;
+	text-align: center;
+
+}
+.help{
+	float: right;
+	width:45%;
+	padding: 10px 15px;
+	cursor: pointer;
+	display: block;
+	/*margin: 10px auto;*/
+	background:#16d961;
+	/*background:linear-gradient(to right, #ff105f,#ffad06);*/
+	border:0;
+	outline: none;
+	border-radius: 30px;'
+}
+.col-md-10{
+	margin-top: 40px;
+}
